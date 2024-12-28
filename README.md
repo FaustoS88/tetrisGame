@@ -15,7 +15,7 @@ Welcome to the Tetris Game! This is a classic Tetris game implemented in HTML, C
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   [git clone https://github.com/FaustoS88/tetrisGame
    cd tetris
 Open the Game:
 You can open the index.html file directly in your browser, or
