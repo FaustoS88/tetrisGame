@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    background-color: #1e1e1e;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #1e1e1e;
+    border: 1px solid #2c2c2c;
+}
+
+.tetromino {
+    background-color: #8e44ad;
+}
+
+.taken {
+    background-color: #34495e;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: #8e44ad;
+    color: #ecf0f1;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #9b59b6;
+}
+
+#score {
+    margin-top: 10px;
+}
